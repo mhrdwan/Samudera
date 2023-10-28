@@ -33,7 +33,7 @@ function Layout({ children }) {
             {role === null || NamaRoute || location.key === "default" ?
                 halamanpindah() : <SideBarComponents />
             }
-            { role === null || NamaRoute  ?
+            {role === null || NamaRoute ?
                 <div className='w-screen h-screen'><PageLogin /></div> :
                 <div className={` mt-3 ml-3 mb-3 w-full }  overflow-y-auto`}>
                     {children}
