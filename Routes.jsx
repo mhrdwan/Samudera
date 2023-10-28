@@ -1,0 +1,22 @@
+import React from 'react'
+import { Route, Routes, BrowserRouter, useLocation } from 'react-router-dom'
+import Layout from './src/components/Layout'
+import "./src/index.css"
+import PageLogin from './src/pages/Login/LoginPage'
+import DashboardPage from './src/pages/Dashboard'
+import FormPages from './src/pages/FormPages'
+function RoutesHalaman() {
+
+    return (
+        <div>
+            <Routes>
+                <Route path='/dashboard' element={<DashboardPage />} />
+                <Route path='/login' element={<PageLogin/>} />
+                <Route path='/form' element={<FormPages/>} />
+                <Route path='*' element={<PageLogin/>} />
+            </Routes>
+        </div>
+    )
+}
+
+export default RoutesHalaman
