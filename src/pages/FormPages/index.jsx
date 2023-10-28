@@ -1,6 +1,8 @@
 import { Button, Col, Form, Input, Row, Select, Tabs } from 'antd'
 import React from 'react'
 import FORMSPOTCHECK from '../../components/FormSpotCheck';
+import FORMULIRFITTOWORK from '../../components/FORMULIR FIT TO WORK';
+import FORMULIRPEMERIKSAANKENDARAAN from '../../components/FORMULIR PEMERIKSAAN KENDARAAN';
 
 function FormPages() {
   const onChange = (key) => {
@@ -15,16 +17,16 @@ function FormPages() {
     {
       key: '2',
       label: 'FORM FIT TO WORK',
-      // children: <FORMULIRFITTOWORK />
+      children: <FORMULIRFITTOWORK />
     },
     {
       key: '3',
       label: 'FORM PEMERIKSAAN KENDARAAN',
-      // children: <FORMULIRPEMERIKSAANKENDARAAN />,
+      children: <FORMULIRPEMERIKSAANKENDARAAN />,
     },
   ];
   return (
-    <div className=' '>
+    <div className='w-full min-h-screen  '>
       <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
 
     </div>

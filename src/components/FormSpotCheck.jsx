@@ -8,7 +8,7 @@ function FORMSPOTCHECK() {
         pindah("/Print_FR_KLI_PR")
     }
     return (
-        <div className='  w-full min-h-screen mb-10'>
+        <div className='  w-full min-h-screen '>
             <div className='flex justify-between items-center'>
                 <div className='flex justify-center  w-full font-bold'>FORM SPOT CHECK</div>
                 <button className='py-2 font-semibold px-5 rounded-md bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg' onClick={pindahhalaman}>Print</button>
