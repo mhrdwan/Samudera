@@ -3,7 +3,7 @@ import React from 'react';
 
 function Print_FR_KLI_PR() {
     return (
-            <div className='overflow-y-auto max-w-screen-2xl'>
+            <div className='overflow-hidden w-screen'>
                 <table className="tg border w-full ">
                     <thead>
                         <tr>

@@ -12,9 +12,9 @@ function RoutesHalaman() {
         <div>
             <Routes>
                 <Route path='/dashboard' element={<DashboardPage />} />
+                <Route path='/Print_FR_KLI_PR' element={<Print_FR_KLI_PR/>} />
                 <Route path='/login' element={<PageLogin/>} />
                 <Route path='/form' element={<FormPages/>} />
-                <Route path='/Print_FR_KLI_PR' element={<Print_FR_KLI_PR/>} />
                 <Route path='*' element={<PageLogin/>} />
             </Routes>
         </div>
