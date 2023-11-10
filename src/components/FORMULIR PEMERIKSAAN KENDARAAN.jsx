@@ -68,90 +68,102 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
                         <div>Oli Mesin*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Air Radiator*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Fan Belt
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Fuel Filter
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Oil Filter
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Saringan Udara
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -159,30 +171,34 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Minyak Kopling*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <div className='flex justify-center font-bold mt-5'>B. HEAD
                 </div>
@@ -191,30 +207,34 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
                         <div>Kaca Depan dan Kaca Spion
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Wiper
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -222,60 +242,68 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Seatbelt 3 Titik Retractable*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Jok
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Handle & Kunci Pintu
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -283,15 +311,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -299,30 +329,34 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Klakson*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -330,30 +364,34 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Ganjal Ban, Dongkrak, Kunci Roda*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -361,15 +399,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -377,45 +417,51 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Accu*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Perisai Kolong Head
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -423,15 +469,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -439,45 +487,51 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Lampu Standby / DRL*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Lampu Rem*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -485,15 +539,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -501,15 +557,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -517,15 +575,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <div className='flex justify-center font-bold mt-5'>C. CHASIS
                 </div>
@@ -534,15 +594,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
                         <div>Lampu Mundur*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -550,90 +612,102 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Kondisi Ban*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Baut Roda Chasis*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Ban Cadangan*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Twist Lock*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Perisai Kolong Chasis*
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <div className='flex justify-center font-bold mt-5'>D. PERLENGKAPAN KESELAMATAN
                 </div>
@@ -642,90 +716,102 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
                         <div>Helm Safety
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Rompi Reflektor / Seragam Lapangan
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div> Sepatu Safety
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Kacamata Safety
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Spill Kit (Pasir / Serbuk Kayu)
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Sarung Tangan Karet
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -733,120 +819,136 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Ember Penampung
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Plastik Limbah B3
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Kerucut Pengaman Bereflektor
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Segi Tiga Pengaman
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>APAR
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>P3K
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Senter
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <div className='flex justify-center font-bold mt-5'>E. DOKUMEN</div>
                 <Row className='flex items-center mt-5'>
@@ -855,90 +957,102 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Buku KIR Casis
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>STNK
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Uji Emisi
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>SIM
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>ID Card Pelabuhan
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -946,179 +1060,203 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
 
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Induksi
                         </div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Pastikan Area Muat/Bongkar Aman</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Hand Rem</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Matikan Mesin</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Cabut Kunci & Beri Kunci ke Petugas</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Pasang Ganjal Ban</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Pasang Safety Cone</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Periksa Twist Lock</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Periksa Seal / Gembok</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Periksa Tetesan Oli / Kebocoran</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Periksa Susunan Barang</div>
                     </Col>
-                    <Col sm={4}>
-                        <Select style={{ width: "50%" }} placeholder="Oke Atau Tidak">
-                            <option value={0}>Baik</option>
-                            <option value={1}>Tidak</option>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
+                        <Select placeholder="Oke Atau Tidak">
+                            <option value={0}>OKE</option>
+                            <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
                     <Col>
                         <Input placeholder='KETERANGAN' />
                     </Col>
+                   </div>
                 </Row>
 
             </Form>
