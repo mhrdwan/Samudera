@@ -12,7 +12,17 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
             <Form className='w-full min-h-screen '>
                 <div className='flex justify-between items-center'>
                     <div className='flex justify-center  w-full font-bold'>FORMULIR PEMERIKSAAN KENDARAAN</div>
-                    <button className='py-2 font-semibold px-5 rounded-md bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg' onClick={pindahhalaman}>Print</button>
+                    <input
+                    type="file"
+                    id="fileInputs"
+                    className=" opacity-0"
+                    // onChange={handleFileUpload} // Fungsi untuk menangani file yang di-upload
+                />
+                <label htmlFor="fileInputs" className='py-2 font-semibold px-5 w-36 rounded-md mr-5 bg-red-500 text-white hover:text-white hover:shadow-4 shadow-lg cursor-pointer text-center'>
+                    Upload File
+                </label>
+                    <button className='py-2 font-semibold px-5 mr-5 rounded-md bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg' onClick={pindahhalaman}>Print</button>
+                    
                 </div>
 
                 <Row className='mt-5'>

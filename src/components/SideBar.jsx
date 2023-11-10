@@ -1,19 +1,32 @@
 // SideBarComponents.jsx
-import React from 'react'
+import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom';
 
 function SideBarComponents() {
     function logout() {
         localStorage.clear("role")
     }
+    const [hidemenu, sethidemenu] = useState(false)
+
+    function ubah(e) {
+        console.log(hidemenu);
+        if (hidemenu === false) {
+            sethidemenu(true)
+        } else {
+            sethidemenu(false)
+        }
+    }
 
     return (
-        <div className='bg-red-600 w-0 md:w-52 min-h-screen flex-none'>
-            <div className='flex justify-center font-bold uppercase mt-3 opacity-0 md:opacity-100'> Samudera</div>
+        <div className={`bg-red-600  md:w-52 min-h-screen flex-none ${hidemenu === true ? "w-28" : "w-8"} text-white `}>
+            <div onClick={(e) => ubah(e)} className={` md:hidden flex  mt-3 z-50  ${hidemenu === true ? "flex justify-end mr-3" : "justify-center"}`}>
+                {hidemenu === false ? <svg className='' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-justify"><line x1="3" x2="21" y1="6" y2="6" /><line x1="3" x2="21" y1="12" y2="12" /><line x1="3" x2="21" y1="18" y2="18" /></svg> : <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-right"><line x1="21" x2="3" y1="6" y2="6" /><line x1="21" x2="9" y1="12" y2="12" /><line x1="21" x2="7" y1="18" y2="18" /></svg>}
+            </div>
+            <div className={`flex justify-center font-bold uppercase mt-3 ${hidemenu === true ? "opacity-100" : "opacity-0"} md:opacity-100`}> Samudera</div>
             <Link to="/dashboard">
-                <div className="flex gap-2 ml-3 mt-4 cursor-pointer opacity-0 md:opacity-100 hover:bg-white items-center h-9 group rounded-lg rounded-r-none">
+                <div className={`flex gap-2 ml-3 mt-4 cursor-pointer ${hidemenu === true ? "opacity-100 text-[8px]" : "opacity-0"}  md:opacity-100   hover:bg-white items-center h-9 group rounded-lg rounded-r-none`}>
                     <div className="ml-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13 9V3h8v6h-8ZM3 13V3h8v10H3Zm10 8V11h8v10h-8ZM3 21v-6h8v6H3Z" /></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M13 9V3h8v6h-8ZM3 13V3h8v10H3Zm10 8V11h8v10h-8ZM3 21v-6h8v6H3Z" /></svg>
                     </div>
                     <p className={`overflow-hidden transition-all `}>Dashboard</p>
                     {/* {expanded && (

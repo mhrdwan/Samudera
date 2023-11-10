@@ -12,10 +12,10 @@ function Layout({ children }) {
     const pindah = useNavigate()
     function halamanpindah() {
         if (!NamaRoute) {
-            notification.error({
-                description: "Kembali Kehalaman Login",
-                message: "error"
-            })
+            // notification.error({
+            //     description: "Kembali Kehalaman Login",
+            //     message: "error"
+            // })
         }
 
     }
@@ -34,8 +34,8 @@ function Layout({ children }) {
                 halamanpindah() : <SideBarComponents />
             }
             {role === null ?
-                <div className='w-screen h-screen'><PageLogin /></div> :
-                <div className={` mt-3 ml-3 mb-3 w-full }  overflow-y-auto`}>
+                <div className=' overflow-hidden '><PageLogin /></div> :
+                <div className={` mt-3 ml-3 mb-3 w-full   overflow-y-auto`}>
                     {children}
                 </div>
             }

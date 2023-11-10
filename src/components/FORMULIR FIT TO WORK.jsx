@@ -11,7 +11,16 @@ function FORMULIRFITTOWORK() {
         <div className='w-full min-h-screen '>
             <div className='flex justify-between items-center'>
                 <div className='flex justify-center  w-full font-bold'>FORMULIR FIT TO WORK</div>
-                <button className='py-2 font-semibold px-5 rounded-md bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg'  onClick={pindahhalaman}>Print</button>
+                <input
+                    type="file"
+                    id="fileInput"
+                    className="hidden"
+                    // onChange={handleFileUpload} // Fungsi untuk menangani file yang di-upload
+                />
+                <label htmlFor="fileInput" className='py-2 font-semibold px-5 w-32 rounded-md mr-5 bg-red-500 text-white hover:text-white hover:shadow-4 shadow-lg cursor-pointer text-center'>
+                    Upload File
+                </label>
+                <button className='py-2 font-semibold px-5 rounded-md mr-5 bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg'  onClick={pindahhalaman}>Print</button>
             </div>
             <Form>
                 <Row className='mt-8'>
