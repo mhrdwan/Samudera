@@ -42,7 +42,11 @@ function PageLogin() {
 
   return (
     <div>
+<<<<<<< HEAD
       <div className=' h-screen items-center flex w-screen  '>
+=======
+      <div className=' min-h-screen items-center flex w-screen '>
+>>>>>>> 549b52a (first commit)
         <div className=' border border-zinc-300 md:w-4/12 w-80 flex bg-gray-50 h-72 rounded-lg mx-auto'>
           <div className='items-center w-7/12 space-y-3 my-auto mx-auto '>
             <div>
