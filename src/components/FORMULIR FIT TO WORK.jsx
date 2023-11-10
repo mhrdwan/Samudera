@@ -69,7 +69,8 @@ function FORMULIRFITTOWORK() {
                     <Col sm={10} className='ms-3 '>
                         <div>Mata Merah, Berkaca - kaca atau berair</div>
                     </Col>
-                    <Col sm={4}>
+                   <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -78,12 +79,14 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div> Muka Merah</div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -92,12 +95,14 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Tampak Ngantuk (sering menguap)</div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -106,12 +111,14 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Pandangan Kosong (fokus)</div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -120,13 +127,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Tampak linglung/bingung
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -135,13 +144,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Badan tremor atau berkedut
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -150,13 +161,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Pakaian acak - acakan
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -165,6 +178,7 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <div className='flex justify-center font-bold mt-5'>Perilaku
                 </div>
@@ -173,7 +187,8 @@ function FORMULIRFITTOWORK() {
                         <div>Jalan Sempoyongan/bergoyang
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -182,14 +197,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
-                        <div>Gelisah
-
+                        <div>Gelisah                
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2 bg-gray-700'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -198,13 +214,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Kesulitan mengingat (konsentrasi)
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -213,13 +231,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Agresif, mencari perkara
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -228,6 +248,7 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -254,7 +275,8 @@ function FORMULIRFITTOWORK() {
                         <div>Konsumsi Alkohol dalam 24 jam terakhir
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -263,13 +285,15 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div> Bau alkohol (minuman keras)
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <div className='md:grid grid grid-cols-2'>
+                   <Col sm={4}>
                         <Select placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
@@ -278,6 +302,7 @@ function FORMULIRFITTOWORK() {
                     <Col>
                         <Input placeholder='Komentar' />
                     </Col>
+                   </div>
                 </Row>
             </Form >
         </div>
