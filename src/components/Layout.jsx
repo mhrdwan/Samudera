@@ -29,13 +29,13 @@ function Layout({ children }) {
 
     const role = localStorage.getItem("role")
     return (
-        <div className='max-h-screen flex overflow-hidden flex-grow'>
+        <div className='max-h-screen flex overflow-hidden flex-grow  '>
             {role === null || NamaRoute || location.key === "default" ?
                 halamanpindah() : <SideBarComponents />
             }
             {role === null ?
                 <div className='w-screen h-screen'><PageLogin /></div> :
-                <div className={` mt-3 ml-3 mb-3 w-full }  overflow-y-auto`}>
+                <div className={` mt-3 ml-3 mb-3 w-full  overflow-y-auto`}>
                     {children}
                 </div>
             }

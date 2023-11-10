@@ -9,7 +9,7 @@ import Print_FR_KLI_PR from './src/components/Print_FR_KLI_PR'
 function RoutesHalaman() {
 
     return (
-        <div>
+        <div className=''>
             <Routes>
                 <Route path='/dashboard' element={<DashboardPage />} />
                 <Route path='/Print_FR_KLI_PR' element={<Print_FR_KLI_PR/>} />

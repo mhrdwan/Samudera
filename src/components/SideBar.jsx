@@ -8,7 +8,7 @@ function SideBarComponents() {
     }
 
     return (
-        <div className='bg-red-600 w-0 md:w-52 min-h-screen flex-none'>
+        <div className='bg-red-500   w-0 md:w-52 min-h-screen flex-none'>
             <div className='flex justify-center font-bold uppercase mt-3 opacity-0 md:opacity-100'> Samudera</div>
             <Link to="/dashboard">
                 <div className="flex gap-2 ml-3 mt-4 cursor-pointer opacity-0 md:opacity-100 hover:bg-white items-center h-9 group rounded-lg rounded-r-none">

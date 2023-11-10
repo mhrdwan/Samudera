@@ -15,7 +15,7 @@ function FORMSPOTCHECK() {
             </div>
             <Form>
                 <Row className='mt-8'>
-                    <Col sm={4} className='ms-3'>
+                    <Col  className='ms-3'>
                         <Form.Item
                             label="Nama Pengemudi"
                             labelCol={{ span: 24 }}
@@ -24,7 +24,7 @@ function FORMSPOTCHECK() {
                             <Input />
                         </Form.Item>
                     </Col>
-                    <Col sm={4} className='ms-3'>
+                    <Col  className='ms-3'>
                         <Form.Item
                             label="Tipe Kendaraaan"
                             labelCol={{ span: 24 }}
@@ -33,7 +33,7 @@ function FORMSPOTCHECK() {
                             <Input />
                         </Form.Item>
                     </Col>
-                    <Col sm={4} className='ms-3'>
+                    <Col  className='ms-3'>
                         <Form.Item
                             label="Nopol Kendaraan"
                             labelCol={{ span: 24 }}
@@ -42,7 +42,7 @@ function FORMSPOTCHECK() {
                             <Input />
                         </Form.Item>
                     </Col>
-                    <Col sm={4} className='ms-3'>
+                    <Col  className='ms-3'>
                         <Form.Item
                             label="Rute"
                             labelCol={{ span: 24 }}
@@ -51,7 +51,7 @@ function FORMSPOTCHECK() {
                             <Input />
                         </Form.Item>
                     </Col>
-                    <Col sm={4} className='ms-3'>
+                    <Col  className='ms-3'>
                         <Form.Item
                             label="Hari Tanggal"
                             labelCol={{ span: 24 }}
@@ -65,22 +65,22 @@ function FORMSPOTCHECK() {
                 <div className='flex justify-center font-bold'>A. PENGECEKAN UMUM
                 </div>
                 <Row className='flex items-center mt-5'>
-                    <Col sm={10} className='ms-3 '>
+                    <Col sm={3} md={10} className='ms-3 '>
                         <div>Membawa SIM B II Umum, STNK, KIR yang masih valid dan
                             sesuai</div>
                     </Col>
                     <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
+                        <Select  placeholder="Oke Atau Tidak">
                             <option value={0}>OKE</option>
                             <option value={1}>NOT OKE</option>
                         </Select>
                     </Col>
-                    <Col>
+                    <Col >
                         <Input placeholder='Komentar' />
                     </Col>
                 </Row>
                 <Row className='flex items-center mt-5'>
-                    <Col sm={10} className='ms-3 '>
+                <Col sm={3} md={10} className='ms-3 '>
                         <div>Membawa JMP Terbaru</div>
                     </Col>
                     <Col sm={4}>
