@@ -75,6 +75,24 @@ function FORMSPOTCHECK() {
                 </div>
                 <Row gutter={[16, 16]} className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
+                        <div>
+                            Input Nomor Surat</div>
+                    </Col>
+                    <div className='md:grid grid grid-cols-2'>
+                        {/* <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col> */}
+                        <Col>
+                            <Input style={{width :"100%"}} placeholder='Input' />
+                        </Col>
+                    </div>
+
+                </Row>
+                <Row gutter={[16, 16]} className='flex items-center mt-5'>
+                    <Col sm={10} className='ms-3 '>
                         <div>Membawa SIM B II Umum, STNK, KIR yang masih valid dan
                             sesuai</div>
                     </Col>
