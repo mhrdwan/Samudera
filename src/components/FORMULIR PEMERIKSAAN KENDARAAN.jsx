@@ -73,8 +73,8 @@ function FORMULIRPEMERIKSAANKENDARAAN() {
                 </Row>
                 <div className='flex justify-center font-bold'>A. MESIN
                 </div>
-                <Row gutter={[16, 16]} className='flex items-center mt-5'>
-                    <Col sm={10} className='ms-1 '>
+                <Row  className='flex items-center mt-5'>
+                    <Col sm={10} className='ms-3 '>
                         <div>
                             Input Nomor Surat</div>
                     </Col>

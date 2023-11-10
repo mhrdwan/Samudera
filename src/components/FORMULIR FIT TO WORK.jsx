@@ -15,12 +15,12 @@ function FORMULIRFITTOWORK() {
                     type="file"
                     id="fileInput"
                     className="hidden"
-                    // onChange={handleFileUpload} // Fungsi untuk menangani file yang di-upload
+                // onChange={handleFileUpload} // Fungsi untuk menangani file yang di-upload
                 />
                 <label htmlFor="fileInput" className='py-2 font-semibold px-5 w-32 rounded-md mr-5 bg-red-500 text-white hover:text-white hover:shadow-4 shadow-lg cursor-pointer text-center'>
                     Upload File
                 </label>
-                <button className='py-2 font-semibold px-5 rounded-md mr-5 bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg'  onClick={pindahhalaman}>Print</button>
+                <button className='py-2 font-semibold px-5 rounded-md mr-5 bg-blue-500 text-white hover:text-white hover:shadow-4 shadow-lg' onClick={pindahhalaman}>Print</button>
             </div>
             <Form>
                 <Row className='mt-8'>
@@ -65,8 +65,8 @@ function FORMULIRFITTOWORK() {
                 </Row>
                 <div className='flex justify-center font-bold'>Item Pemeriksaan
                 </div>
-                <Row gutter={[16, 16]} className='flex items-center mt-5'>
-                    <Col sm={10} className='ms-1 '>
+                <Row className='flex items-center mt-5 overflow-hidden'>
+                    <Col sm={10} className='ms-3'>
                         <div>
                             Input Nomor Surat</div>
                     </Col>
@@ -87,65 +87,65 @@ function FORMULIRFITTOWORK() {
                     <Col sm={10} className='ms-3 '>
                         <div>Mata Merah, Berkaca - kaca atau berair</div>
                     </Col>
-                   <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                    <div className='md:grid grid grid-cols-2'>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div> Muka Merah</div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Tampak Ngantuk (sering menguap)</div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
                         <div>Pandangan Kosong (fokus)</div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -153,16 +153,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -170,16 +170,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -187,16 +187,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <div className='flex justify-center font-bold mt-5'>Perilaku
                 </div>
@@ -206,33 +206,33 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
-                        <div>Gelisah                
+                        <div>Gelisah
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2 bg-gray-700'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -240,16 +240,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -257,16 +257,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -294,16 +294,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
                 <Row className='flex items-center mt-5'>
                     <Col sm={10} className='ms-3 '>
@@ -311,16 +311,16 @@ function FORMULIRFITTOWORK() {
                         </div>
                     </Col>
                     <div className='md:grid grid grid-cols-2'>
-                   <Col sm={4}>
-                        <Select placeholder="Oke Atau Tidak">
-                            <option value={0}>OKE</option>
-                            <option value={1}>NOT OKE</option>
-                        </Select>
-                    </Col>
-                    <Col>
-                        <Input placeholder='Komentar' />
-                    </Col>
-                   </div>
+                        <Col sm={4}>
+                            <Select placeholder="Oke Atau Tidak">
+                                <option value={0}>OKE</option>
+                                <option value={1}>NOT OKE</option>
+                            </Select>
+                        </Col>
+                        <Col>
+                            <Input placeholder='Komentar' />
+                        </Col>
+                    </div>
                 </Row>
             </Form >
         </div>
