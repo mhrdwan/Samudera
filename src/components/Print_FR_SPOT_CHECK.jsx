@@ -36,9 +36,19 @@ function Print_FR_SPOT_CHECK() {
             style={{ display: "flex", justifyContent: "end" }}
             className="p-2"
           >
-            <small>FR/SKI-PR-10/05 rev.05</small>
+            <input
+              type="text"
+              placeholder="FR/SKI-PR-10/05 rev.05"
+              onChange={(e) => {
+                if (e.target.value === "...") {
+                  // Jika input hanya berisi titik-titik, setel nilai input ke string kosong
+                  e.target.value = "";
+                }
+              }}
+            />
           </td>
         </tr>
+
         <tr className="h-10">
           <td width="10%" className="p-2">
             {namaDriver}
@@ -121,7 +131,6 @@ function Print_FR_SPOT_CHECK() {
         </tr>
         <tr className="h-10"></tr>
       </table>
-  
 
       {/* TABLE */}
       <>
@@ -801,7 +810,7 @@ function Print_FR_SPOT_CHECK() {
             </td>
           </tr>
         </table>
-        <div class="mt-4 " style={{marginLeft: '3%'}}>
+        <div class="mt-4 " style={{ marginLeft: "3%" }}>
           <p>* Nilai standar minimum kelulusan 55%</p>
           <p>
             * Jika terdapat kerusakan, laporkan kepada bagian operasional untuk

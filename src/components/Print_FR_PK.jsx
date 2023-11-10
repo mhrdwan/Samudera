@@ -1,9 +1,7 @@
 import React from "react";
 import logo from "../assets/Samudera.png";
 
-
 function Print_FR_PK() {
-    
   return (
     <div className="overflow-hidden p-10">
       <table width="100%" className="border-solid border-black border-2">
@@ -27,7 +25,19 @@ function Print_FR_PK() {
       <div className="row border-solid border-black border-2">
         <div className="col-md-12 ">
           <div className="col-md-24 flex justify-end">
-            <p className="pull-right text-2xl">FR/SKI-PR-10/07 rev.02</p>
+            <p className="pull-right text-2xl">
+              {" "}
+              <input
+                type="text"
+                placeholder="FR/SKI-PR-10/07 rev.02"
+                onChange={(e) => {
+                  if (e.target.value === "...") {
+                    // Jika input hanya berisi titik-titik, setel nilai input ke string kosong
+                    e.target.value = "";
+                  }
+                }}
+              />
+            </p>
             <br />
           </div>
         </div>
@@ -1297,7 +1307,7 @@ function Print_FR_PK() {
                 Diperiksa Oleh Sopir/Driver :
               </th>
               <th className="border-2 w-44 border-black font-bold">Tanggal</th>
-              <th className="border-2 border-black font-bold">TDD</th>
+              <th className="border-2 border-black font-bold">TTD</th>
             </tr>
             <tr>
               <td
@@ -1317,7 +1327,7 @@ function Print_FR_PK() {
                 Diketahui Oleh Staff Operasional :
               </th>
               <th className="border-2 w-48 border-black font-bold">Tanggal</th>
-              <th className="border-2 border-black font-bold">TDD</th>
+              <th className="border-2 border-black font-bold">TTD</th>
             </tr>
             <tr>
               <td
@@ -1328,13 +1338,12 @@ function Print_FR_PK() {
               <td className="border-2 border-solid border-black "></td>
             </tr>
           </table>
-         
         </div>
         <table width="100%">
-            <th className="border-2 border-solid w-0 border-black text-left h-28 font-bold">
-                Keterangan :
-            </th>
-          </table>
+          <th className="border-2 border-solid w-0 border-black text-left h-28 font-bold">
+            Keterangan :
+          </th>
+        </table>
       </>
     </div>
   );

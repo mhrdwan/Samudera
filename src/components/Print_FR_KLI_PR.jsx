@@ -24,15 +24,26 @@ function Print_FR_KLI_PR() {
           </td>
         </tr>
       </table>
-      <div className="row">
+      <div className="row ">
         <div className="col-md-12 ">
           <div className="col-md-24 flex justify-end">
-            <small className="pull-right">FR/SK-PR-10/06</small>
+            <p className="pull-right">
+              {" "}
+              <input
+                type="text"
+                placeholder="                 FR/SK-PR-10/06"
+                onChange={(e) => {
+                  if (e.target.value === "...") {
+                    // Jika input hanya berisi titik-titik, setel nilai input ke string kosong
+                    e.target.value = "";
+                  }
+                }}
+              />
+            </p>
             <br />
           </div>
         </div>
       </div>
-
       <table width="100%" className="border-solid border-black border-1">
         <tr className="h-10">
           <td width="10%">{namaDriver}</td>{" "}
